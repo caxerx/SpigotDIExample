@@ -7,11 +7,10 @@ import com.caxerx.mc.di.plugin.MCDIPlugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
+
     @Override
-    public void onEnable() {
+    public void onLoad() {
         DIPlugin plugin = MCDIPlugin.getPlugin();
-        PlayerManager mgr = plugin.getPlayerManager();
-        GamePlayer player = mgr.getGamePlayer("GamePlayer");
-        System.out.println(player.getPlayerName());
+        plugin.registerMechanic(new UserMechanicImpl());
     }
 }

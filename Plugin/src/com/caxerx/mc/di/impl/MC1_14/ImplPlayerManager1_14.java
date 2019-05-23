@@ -8,6 +8,7 @@ import com.google.inject.Inject;
 public class ImplPlayerManager1_14 implements PlayerManager {
     @Inject
     private GamePlayerBuilder gamePlayerBuilder;
+
     @Override
     public GamePlayer getGamePlayer(String playerName) {
         return gamePlayerBuilder.build(playerName);
