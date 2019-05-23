@@ -26,12 +26,6 @@ public class MCDIPlugin extends JavaPlugin implements DIPlugin {
         diPlugin = this;
     }
 
-    @Override
-    public void onEnable() {
-        PlayerManager playerMgr = MCDIPlugin.getPlugin().getPlayerManager();
-        playerMgr.getGamePlayer("Fuck!");
-    }
-
     public static DIPlugin getPlugin() {
         return diPlugin;
     }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExternalPlugin/ExternalPlugin.iml" filepath="$PROJECT_DIR$/ExternalPlugin/ExternalPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/Plugin/Plugin.iml" filepath="$PROJECT_DIR$/Plugin/Plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpigotDIExample.iml" filepath="$PROJECT_DIR$/SpigotDIExample.iml" />
     </modules>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExternalPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExternalPlugin_jar</output-path>
+    <root id="archive" name="ExternalPlugin.jar">
+      <element id="module-output" name="ExternalPlugin" />
+      <element id="file-copy" path="$PROJECT_DIR$/ExternalPlugin/plugin.yml" />
+    </root>
+  </artifact>
+</component>

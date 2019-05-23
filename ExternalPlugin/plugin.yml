@@ -1,0 +1,5 @@
+name: DIExternal
+version: 1.0.0
+main: com.caxerx.mc.extdi.Main
+api-version: 1.14
+depends: [DIExample]

@@ -5,11 +5,11 @@ import com.caxerx.mc.di.api.PlayerManager;
 
 public class MCDIPlugin implements DIPlugin {
     public static DIPlugin getPlugin() {
-        return null;
+        throw new RuntimeException("API Interface");
     }
 
     @Override
     public PlayerManager getPlayerManager() {
-        return null;
+        throw new RuntimeException("API Interface");
     }
 }
