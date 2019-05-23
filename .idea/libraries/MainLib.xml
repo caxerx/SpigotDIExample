@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="MainLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/guice-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/paper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/paper.jar!/" />
+    </SOURCES>
+  </library>
+</component>
